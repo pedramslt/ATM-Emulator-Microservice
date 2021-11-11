@@ -1,5 +1,4 @@
 # ATM-Emulator-Microservice
-please open the 'read me.txt' and follow the instructions to use the project. thank you
 
 
 to add mysql database and redis to project please install docker and run following commands :
