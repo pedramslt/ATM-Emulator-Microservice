@@ -1,0 +1,17 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: BANK-SERVICE
+  datasource:
+    url: jdbc:mysql://172.26.201.123:3307/atm?allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
+    username: root
+    password: root
+    platform: mysql
+  jpa:
+    hibernate:
+      ddl-auto: none
+  redis:
+    url: localhost
+    port: 6379
