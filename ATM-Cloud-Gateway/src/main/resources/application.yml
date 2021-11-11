@@ -1,0 +1,29 @@
+server:
+  port: 8010
+
+#Hystrix config
+#hystrix:
+#  metrics:
+#    polling-interval-ms: 2000
+
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: ATM-SERVICE
+          uri: lb://ATM-SERVICE
+          predicates:
+            - Path=/**
+#          filters:
+#          - name: Hystrix
+#            args:
+#               name: fallBAckCommand
+#               fallbackuri: forward:/atmServiceFallBack
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: hystirx.stream

@@ -1,0 +1,15 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: ATM-SERVICE
+  session:
+    store-type: redis
+  redis:
+    url: localhost
+    port: 6379
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
