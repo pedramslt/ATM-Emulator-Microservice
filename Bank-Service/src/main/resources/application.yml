@@ -5,7 +5,7 @@ spring:
   application:
     name: BANK-SERVICE
   datasource:
-    url: jdbc:mysql://172.26.201.123:3307/atm?allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
+    url: jdbc:mysql://localhost:3307/atm?allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
     username: root
     password: root
     platform: mysql
