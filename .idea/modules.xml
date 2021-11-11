@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bank-Service/Bank-Service.iml" filepath="$PROJECT_DIR$/Bank-Service/Bank-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Github ATM emulator package.iml" filepath="$PROJECT_DIR$/.idea/Github ATM emulator package.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ATM-Emulator/Spring-Boot-ATM-Emulator.iml" filepath="$PROJECT_DIR$/ATM-Emulator/Spring-Boot-ATM-Emulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atm-config-server/atm-config-server.iml" filepath="$PROJECT_DIR$/atm-config-server/atm-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atm-cloud-gateway/cloud-gateway.iml" filepath="$PROJECT_DIR$/atm-cloud-gateway/cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atm-service-registery/service-registery.iml" filepath="$PROJECT_DIR$/atm-service-registery/service-registery.iml" />
+    </modules>
+  </component>
+</project>
