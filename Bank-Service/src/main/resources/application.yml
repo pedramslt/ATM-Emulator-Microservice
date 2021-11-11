@@ -4,14 +4,27 @@ server:
 spring:
   application:
     name: BANK-SERVICE
+
+    #mysql db
   datasource:
-    url: jdbc:mysql://localhost:3307/atm?allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
-    username: root
-    password: root
-    platform: mysql
+#    url: jdbc:mysql://localhost:3307/atm?allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
+#    username: root
+#    password: root
+#    platform: mysql
+
+#  jpa:
+#    hibernate:
+#      ddl-auto: none
+
+    #h2 db
+    url: jdbc:h2:mem:ATMdb
+    username=sa
+    password=password
+    driverClassName=org.h2.Driver
   jpa:
-    hibernate:
-      ddl-auto: none
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+
+
   redis:
     url: localhost
     port: 6379
