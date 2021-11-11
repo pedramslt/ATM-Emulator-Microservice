@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ATM-Emulator" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Bank-Service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/atm-cloud-gateway" vcs="Git" />
