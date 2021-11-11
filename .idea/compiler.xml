@@ -2,11 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Bank-Service" />
+        <module name="Spring-Boot-ATM-Service" />
+        <module name="atm-config-server" />
+        <module name="cloud-gateway" />
+        <module name="service-registery" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -15,12 +20,14 @@
       <module name="cloud-gateway" target="1.8" />
       <module name="service-registery" target="1.8" />
       <module name="Spring-Boot-ATM-Emulator" target="1.8" />
+      <module name="Spring-Boot-ATM-Service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Bank-Service" options="-parameters" />
       <module name="Spring-Boot-ATM-Emulator" options="-parameters" />
+      <module name="Spring-Boot-ATM-Service" options="-parameters" />
       <module name="atm-config-server" options="-parameters" />
       <module name="cloud-gateway" options="-parameters" />
       <module name="service-registery" options="-parameters" />

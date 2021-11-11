@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Bank-Service/Bank-Service.iml" filepath="$PROJECT_DIR$/Bank-Service/Bank-Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Github ATM emulator package.iml" filepath="$PROJECT_DIR$/.idea/Github ATM emulator package.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ATM-Service/Spring-Boot-ATM-Service.iml" filepath="$PROJECT_DIR$/ATM-Service/Spring-Boot-ATM-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ATM-Config-Server/atm-config-server.iml" filepath="$PROJECT_DIR$/ATM-Config-Server/atm-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ATM-Cloud-Gateway/cloud-gateway.iml" filepath="$PROJECT_DIR$/ATM-Cloud-Gateway/cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ATM-Service-Registery/service-registery.iml" filepath="$PROJECT_DIR$/ATM-Service-Registery/service-registery.iml" />
     </modules>
   </component>
 </project>

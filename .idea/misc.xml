@@ -8,6 +8,10 @@
         <option value="$PROJECT_DIR$/ATM-Emulator/pom.xml" />
         <option value="$PROJECT_DIR$/Bank-Service/pom.xml" />
         <option value="$PROJECT_DIR$/atm-service-registery/pom.xml" />
+        <option value="$PROJECT_DIR$/ATM-Service-Registery/pom.xml" />
+        <option value="$PROJECT_DIR$/ATM-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/ATM-Config-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/ATM-Cloud-Gateway/pom.xml" />
       </list>
     </option>
   </component>
